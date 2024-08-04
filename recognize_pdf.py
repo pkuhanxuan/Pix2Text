@@ -18,7 +18,7 @@ def print_resource_usage():
 	for gpu_id, gpu_load, gpu_memory in gpu_usage:
 		print(f"GPU {gpu_id} 使用率: {gpu_load}%, 内存使用率: {gpu_memory}%")
 
-img_fp = './examples/test-doc.pdf'
+img_fp = './流体力学 (光坰·周) (z-lib.org)_35-100.pdf'
 p2t = Pix2Text.from_config()
 print('加载模型完成')
 print_resource_usage()
