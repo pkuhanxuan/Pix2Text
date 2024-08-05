@@ -22,7 +22,7 @@ img_fp = './流体力学 (光坰·周) (z-lib.org)_35-100.pdf'
 p2t = Pix2Text.from_config()
 print('加载模型完成')
 print_resource_usage()
-doc = p2t.recognize_pdf(img_fp, page_numbers=[0, 1])
+doc = p2t.recognize_pdf(img_fp, page_numbers=[0, 65])
 print('识别完成')
 print_resource_usage()
 doc.to_markdown('output-md')  # 导出的 Markdown 信息保存在 output-md 目录中
